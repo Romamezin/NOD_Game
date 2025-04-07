@@ -1,15 +1,16 @@
 {
-    "name": "romamezin/php_mezin_rv",
+    "name": "mezinroman/php_mezin_rv",
     "description": "Implementation of a php program on the topic \"Greatest common divisor\"",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Romamezin\\GCD\\": "src/"
+            "Mezinroman\\GCD\\": "src/"
         },
         "files": [
             "src/Controller.php",
-            "src/View.php"
+            "src/View.php",
+            "src/Database.php"
         ]
     },
     "bin": [
@@ -18,7 +19,7 @@
     "authors": [
         {
             "name": "Bulat Mezin",
-            "email": "mezin-02@inbox.com"
+            "email": "mezin-02@inbox.ru"
         }
     ],
     "minimum-stability": "stable",
